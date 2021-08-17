@@ -11,7 +11,7 @@ Given('a customer named {string}') do |string|
 #  puts 'background given: ' + string
 end
 
-Given('the following people exist:') do |table|
+Given('the following people exist:') do
   # table is a Cucumber::MultilineArgument::DataTable
 #   raise 'error occurs'
 #  puts 'Given: ' + table.to_s
@@ -43,7 +43,7 @@ Given('some precondition') do
 #  puts 'Given: some precondition'
 end
 
-Given('some other precondition with doc string') do |doc_string|
+Given('some other precondition with doc string') do
 #  puts 'Given: ' + doc_string
 end
 
