@@ -57,7 +57,8 @@ end
 
 Given('the cow weighs {int} kg') do |int|
 #  puts 'Given: ' + int.to_s + 'kg'
-  raise 'error'
+  pending 'pend'
+  #   raise 'error'
 end
 
 When('we calculate the feeding requirements') do
