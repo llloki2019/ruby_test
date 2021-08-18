@@ -21,6 +21,7 @@ end
 
 Given('some precondition 1') do
 #  puts 'Given: some precondition 1'
+  pending 'pend'
 end
 
 When('some action by the actor') do
@@ -57,8 +58,8 @@ end
 
 Given('the cow weighs {int} kg') do |int|
 #  puts 'Given: ' + int.to_s + 'kg'
-  pending 'pend'
-  #   raise 'error'
+#   pending 'pend'
+    raise 'error'
 end
 
 When('we calculate the feeding requirements') do
