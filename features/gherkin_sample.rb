@@ -66,5 +66,5 @@ end
 
 Then('the energy should be {int} MJ') do |int|
 #   puts 'Then:' + int.to_s + 'MJ'
-  raise 'error'
+#   raise 'error'
 end
