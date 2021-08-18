@@ -21,7 +21,7 @@ end
 
 Given('some precondition 1') do
 #  puts 'Given: some precondition 1'
-  pending 'pend'
+#   pending 'pend'
 end
 
 When('some action by the actor') do
@@ -46,6 +46,7 @@ end
 
 Given('some other precondition with doc string') do
 #  puts 'Given: ' + doc_string
+  pending 'pend'
 end
 
 When('yet another action') do
