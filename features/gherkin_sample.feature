@@ -12,9 +12,6 @@ lines
   @Quick @full @annoy
   Scenario: Some determinable business situation
     Given the following people exist:
-      | name  | email           | phone |
-      | Aila  | aila@email.com  | 123   |
-      | Joe   | joe@email.com   | 234   |
     And some precondition 1
     When some action by the actor
     And some other action
@@ -26,9 +23,6 @@ lines
   scenario 2 description
     Given some precondition
     And some other precondition with doc string
-		"""
-		this is comment
-		"""
     When some action by the actor
     And yet another action
     Then some testable outcome is achieved
