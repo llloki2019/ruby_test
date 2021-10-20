@@ -10,7 +10,7 @@ end
 
 Given('the following people exist:') do
   # table is a Cucumber::MultilineArgument::DataTable
-#   raise 'error occurs'
+  raise 'error occurs'
 #  puts 'Given: ' + table.to_s
     # pending 'pending implementation'
     # assert(false, "This was expected to be true")
