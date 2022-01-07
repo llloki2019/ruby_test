@@ -1,12 +1,13 @@
+#language: zh-CN
 @billing @bicker @annoy
-Feature: Some terse yet descriptive text of what is desired like bla bla
+功能: Some terse yet descriptive text of what is desired like bla bla
 A description with
 multiple
 lines
 
   @Quick @nightly
-  Scenario: Some another scenario 2
+  场景: Some another scenario 2
   scenario 2 description
-    When some action by the actor
-    And yet another action
-    Then some testable outcome is achieved
+    当 some action by the actor
+    当 yet another action
+    那么 some testable outcome is achieved
