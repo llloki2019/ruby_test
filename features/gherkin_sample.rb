@@ -1,6 +1,6 @@
 require 'minitest'
-Given('a global administrator named {string}') do |string|
-end
+# Given('a global administrator named {string}') do |string|
+# end
 
 # Given('a blog named {string}') do |string|
 # end
@@ -19,14 +19,14 @@ end
 # Given('some precondition 1') do
 # end
 
-# When('some action by the actor') do
-# end
+When('some action by the actor') do
+end
 
-# When('some other action') do
-# end
+When('some other action') do
+end
 
-# Then('some testable outcome is achieved') do
-# end
+Then('some testable outcome is achieved') do
+end
 
 # Then('something else we can check happens too') do
 # end
