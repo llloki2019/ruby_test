@@ -4,5 +4,9 @@ A description with
 multiple
 lines
 
-  Background:
-    Given a global administrator named "Greg"
+  @Quick @nightly
+  Scenario: Some another scenario 2
+  scenario 2 description
+    When some action by the actor
+    And yet another action
+    Then some testable outcome is achieved
